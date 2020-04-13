@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'Arvanav';
+    src: url("font/Arvanav0.2-Regular.woff")
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background: #0C0017;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: 'Arvanav';
+}
+
+h2 {
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Arvanav';
+}
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 100px;
+    font-family: 'Arvanav';
+    font-size: 40px;
+    color: white;
+    border-bottom: 4px solid white;
+    background-color: rgba(12, 0, 23, 0.8);
+}
+
+.logo {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.clear {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 200px;
+    height: 50px;
+    font-family: 'Arvanav';
+    background: #0C0017;
+    color: white;
+    font-size: 18px;
+    transform: translateY(100px);
+}
+
+.save {
+    position: absolute;
+    top: 100%;
+    right: 50%;
+    width: 200px;
+    height: 50px;
+    font-family: 'Arvanav';
+    background: #0C0017;
+    color: white;
+    font-size: 18px;
+    transform: translateY(100px);
+}
+
+button:hover {
+    background-color: white;
+    color: #0C0017;
+}
+
+.major_head {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.major_head svg{
+    
+    margin-top: 200px;
+    padding: 20px;
+    background-color: #0C0017;
+}
+
+.swiper-container {
+    width: 50%;
+    margin: 400px auto 200px auto;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+}
+
+.swiper-container-3d .swiper-slide-shadow-left {
+    background-image : linear-gradient(to left,#0C0017,rgba(0,0,0,0));
+}
+
+.swiper-container-3d .swiper-slide-shadow-right {
+    background-image : linear-gradient(to left,#0C0017,rgba(0,0,0,0));
+}
+
+.card_img {
+    width: 500px;
+}
+
+.card_list {
+    
+}
+
+.card_all {
+    width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 30px;
+}
+
+.card_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_box_img {
+    width: 300px;
+}
+
+.card_name {
+    opacity: 0;
+    position: absolute;
+}
+
+#defaultCanvas0 {
+    position: absolute;
+    top: 100px;;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
