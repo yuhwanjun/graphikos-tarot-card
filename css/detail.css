@@ -1,0 +1,31 @@
+.major_head {
+    padding-top: 120px;
+}
+
+.card_detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.detail_text {
+    width: 600px;
+    color: white;
+    font-size: 26px;
+    line-height: 50px;
+    word-break: keep-all;
+}
+
+.detail_h2 {
+    font-size: 50px;
+    padding: 10px 0;
+    line-height: 70px;
+}
+
+.detail_h3 {
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+#list {
+    padding-top: 200px;
+}
