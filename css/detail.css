@@ -29,3 +29,7 @@
 #list {
     padding-top: 200px;
 }
+
+.card_detail img {
+    padding: 20px;
+}
