@@ -159,9 +159,8 @@ button:hover {
 
 .card_img {
     width: 400px;
+    height: 692px;
 }
-
-.card_list {}
 
 .card_all {
     width: 1180px;
@@ -180,6 +179,7 @@ button:hover {
 
 .card_box_img {
     width: 280px;
+    height: 484.39px;
 }
 
 .card_name {
@@ -241,3 +241,5 @@ h5 {
     justify-content: center;
     align-items: center;
 }
+
+
