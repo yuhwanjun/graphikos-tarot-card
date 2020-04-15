@@ -92,6 +92,10 @@ header {
 
 .main_text{
     padding-top: 0;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
 }
 
 h5 {
@@ -101,4 +105,56 @@ h5 {
 
 .loading {
     display: none;
+}
+
+.card_name {
+    font-size: 14px;
+}
+
+.p5Canvas {
+    display: none;
+}
+
+button {
+    display: none;
+}
+
+.draw_bg{
+    display: none;
+}
+
+.main_text_box {
+    font-size: 20px;
+    line-height: 38px;
+    width: 300px;
+}
+
+.drag{
+    font-size: 16px;
+    padding-bottom: 14px;
+}
+
+.swiper-container {
+    width: 90%;
+}
+
+.card_img {
+    width: 280;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.major_head svg{
+    width: 300px;
+    margin-top: 0;
+}
+
+.swiper-container{
+    margin: 100px auto 100px auto;
+}
+
+footer {
+    margin-top: 100px;
 }
