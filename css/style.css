@@ -190,7 +190,8 @@ button:hover {
 #defaultCanvas0 {
     position: absolute;
     top: 100px;
-    ;
+    width: 100%;
+    height: 100%;
     z-index: -1;
 }
 
