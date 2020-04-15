@@ -10,12 +10,9 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
 
         
-
-        
     </head>
 
     <body>
-<!--
         <div class="loading">
             <svg width="409.932" height="126.074" viewBox="0 0 409.932 126.074">
                 <style>
@@ -31,7 +28,6 @@
             </svg>
         </div>
         
--->
         <header class="header">
             <div class="logo"><a class="main_link" href="#">KMUVCD Grapikos Tarot Card Design</a></div>
             <div class="list_hd"><a class="list_link" href="#list">LIST</a></div>
@@ -516,6 +512,32 @@
 
         
         </footer>
+        
+        <div style="display: none;">
+        <img src="img/bg/0_theFool_bg.png" width=1 height=1>
+        <img src="img/bg/1_theMagician_bg.png" width=1 height=1>
+        <img src="img/bg/2_theHighpriestess_bg.png" width=1 height=1>
+        <img src="img/bg/3_theEmpress_bg.png" width=1 height=1>
+        <img src="img/bg/4_theEmperor_bg.png" width=1 height=1>
+        <img src="img/bg/5_theHierophant_bg.png" width=1 height=1>
+        <img src="img/bg/6_theLovers_bg.png" width=1 height=1>
+        <img src="img/bg/7_theChriot_bg.png" width=1 height=1>
+        <img src="img/bg/8_theStrength_bg.png" width=1 height=1>
+        <img src="img/bg/9_theHermit_bg.png" width=1 height=1>
+        <img src="img/bg/10_wheelofFortune_bg.png" width=1 height=1>
+        <img src="img/bg/11_justice_bg.png" width=1 height=1>
+        <img src="img/bg/12_theFangedman_bg.png" width=1 height=1>
+        <img src="img/bg/13_death_bg.png" width=1 height=1>
+        <img src="img/bg/14_temperance_bg.png" width=1 height=1>
+        <img src="img/bg/15_theDevil_bg.png" width=1 height=1>
+        <img src="img/bg/16_theTower_bg.png" width=1 height=1>
+        <img src="img/bg/17_theStar_bg.png" width=1 height=1>
+        <img src="img/bg/18_theMoon_bg.png" width=1 height=1>
+        <img src="img/bg/19_theSun_bg.png" width=1 height=1>
+        <img src="img/bg/20_judgement_bg.png" width=1 height=1>
+        <img src="img/bg/21_theWorld_bg.png" width=1 height=1>
+            </div>
+        
 
         <script type="text/javascript" src="js/swiper.min.js"></script>
         <script src="js/jqeury/jquery-3.4.1.min.js"></script>
@@ -529,6 +551,16 @@
                 effect: "fadeIn" //효과
             });
         </script>
+        
+        
+        <script>
+            $(window).on('load', function() {
+                $('.loading').css('display', 'none');
+                $('body').css('overflow', 'auto')
+            });
+        </script>
+
+        
             
         <script>
             var swiper = new Swiper('.swiper-container', {
@@ -583,14 +615,7 @@
             });
         </script>
         
-<!--
-        <script>
-            $(window).on('load', function(){
-                $('.loading').css('display', 'none');
-                $('body').css('overflow', 'auto')
-            });
-    </script>
--->
+        
 
         <script src="js/p5/p5.js"></script>
         <script src="js/p5/p5.sound.min.js"></script>

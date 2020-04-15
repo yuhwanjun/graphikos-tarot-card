@@ -189,6 +189,16 @@
 
         
         </footer>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+        
+        <script>
+            $("img.card_box_img").lazyload({
+                threshold: 300, //뷰포트에 보이기 300px 전에 미리 로딩
+                effect: "fadeIn" //효과
+            });
+        </script>
+        
 
         <script>
             $(document).ready(function() {
