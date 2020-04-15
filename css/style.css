@@ -228,6 +228,7 @@ button:hover {
     color: white;
     font-size: 20px;
     text-align: center;
+    line-height: 30px;
 }
 
 h5 {
