@@ -45,7 +45,7 @@ header {
     color: white;
     border-bottom: 4px solid white;
     background-color: rgba(12, 0, 23, 0.8);
-    transition:all .3s
+    transition: all .3s
 }
 
 .card_num {
@@ -118,7 +118,7 @@ button:hover {
     align-items: center;
 }
 
-.major_head svg{
+.major_head svg {
     margin-top: 200px;
     padding: 20px;
     background-color: #0C0017;
@@ -136,8 +136,7 @@ button:hover {
     z-index: 10000;
 }
 
-.loading svg{
-}
+.loading svg {}
 
 .swiper-container {
     width: 70%;
@@ -151,20 +150,18 @@ button:hover {
 }
 
 .swiper-container-3d .swiper-slide-shadow-left {
-    background-image : linear-gradient(to left,#0C0017,rgba(0,0,0,0));
+    background-image: linear-gradient(to left, #0C0017, rgba(0, 0, 0, 0));
 }
 
 .swiper-container-3d .swiper-slide-shadow-right {
-    background-image : linear-gradient(to left,#0C0017,rgba(0,0,0,0));
+    background-image: linear-gradient(to left, #0C0017, rgba(0, 0, 0, 0));
 }
 
 .card_img {
     width: 400px;
 }
 
-.card_list {
-    
-}
+.card_list {}
 
 .card_all {
     width: 1180px;
@@ -192,7 +189,8 @@ button:hover {
 
 #defaultCanvas0 {
     position: absolute;
-    top: 100px;;
+    top: 100px;
+    ;
     z-index: -1;
 }
 
